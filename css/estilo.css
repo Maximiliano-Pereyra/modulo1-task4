@@ -1,0 +1,305 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100%;
+    height: 170vh;
+    background-color: grey;
+}
+
+header {
+    width: 100%;
+    height: 30vh;
+}
+
+.title {
+    width: 100%;
+    height: 4vh;
+    text-align: center;
+    background-color: black;
+    color: grey;
+}
+
+.title img {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 2px;
+    background-color: grey;
+}
+
+nav {
+    background-color: black;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: end;
+
+}
+
+nav h6 {
+    background-color: black;
+    color: grey;
+    text-decoration: none;
+    font-size: large;
+    border: solid grey 0.1cm;
+    text-align: center;
+
+}
+
+nav a {
+    text-decoration: none;
+    background-color: black;
+    color: grey;
+    text-decoration: none;
+    font-size: large;
+}
+
+main {
+    width: 100%;
+    height: 19vh;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.subtitulo {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+
+}
+
+.subtitulo img {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+
+.subtitulo h3 {
+    width: 100%;
+    display: flex;
+    border: solid grey 0.1cm;
+    background-color: black;
+    color: grey;
+    align-content: flex-start;
+}
+
+article {
+    width: 100%;
+    height: 93vh;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+
+}
+
+form{
+    width: 100%;
+
+}
+
+.logoG{
+    width: 30%;
+    height: 55vh;
+    display: flex;
+    flex-wrap: wrap;
+    object-fit: cover;
+    align-self: center;
+    margin: 2.5cm;
+    margin-top: 35vh;
+}
+
+.logoG2{
+    width: 30%;
+    height: 55vh;
+    display: flex;
+    flex-wrap: wrap;
+    object-fit: cover;
+    align-self: center;
+    margin: 2.5cm;
+    margin-top: 35vh;
+}
+
+.imagen2{
+    width: 30%;
+    height: 30vh;
+    object-fit: cover;
+    display: flex;
+    flex-wrap: wrap;
+   align-self: center; 
+   margin: 1cm;
+   margin-top: 30vh;
+}
+
+.foto{
+    width: 30%;
+    height: 30vh;
+    object-fit: cover;
+    display: flex;
+    flex-wrap: wrap;
+   align-self: center;
+   margin: 2cm;
+   margin-top: 30vh;
+}
+
+.contenido {
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    margin: 7px;
+    margin-top: 25vh;
+    font-size: 0.48cm;
+}
+
+ol {
+    list-style-position: inside;
+    list-style-type: upper-latin;
+    margin-left: 00.2cm;
+}
+
+ol li {
+    list-style-position: inside;
+    list-style-type: upper-latin;
+    margin-left: 00.7cm;
+}
+
+.texto {
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.aclaraciones {
+    width: 100%;
+    height: 30%;
+    color: black;
+    background-color: 2px solid rgb(68, 61, 61);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin: 7px;
+    
+}
+
+iframe{
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+caption{
+    text-align: left;
+}
+
+thead{
+    background-color: rgb(138, 99, 99);
+    color: rgb(20, 19, 19);
+}
+
+tbody{
+    background-color: grey;
+    color: black;
+}
+
+div {
+    width: 100%;
+    height: 5vh;
+    background-image: url(/Imagenes/design1_image1.jpg);
+    background-size: cover;
+}
+
+form{
+    width: 100%;
+    margin: 7px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.DatosPersonales{
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(155, 152, 152);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.DatosPersonales label{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Escuelas{
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(155, 152, 152);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+.Position{
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(155, 152, 152);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.Uniform{
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(155, 152, 152);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.Permission{
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(155, 152, 152);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#boton{
+    width: 100%;
+    background-color: white;
+    border: 3px solid rgb(37, 36, 36);
+    
+}
+
+
+footer {
+    width: 100%;
+    color: black;
+    text-align: center;
+    justify-self: flex-end;
+    margin-top: 25vh;
+}
